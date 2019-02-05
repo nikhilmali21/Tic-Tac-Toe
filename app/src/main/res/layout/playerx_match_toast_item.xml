@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_playerx_toast"
+    >
+
+    <ImageView
+        android:id="@+id/imagetView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_trophy"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Player X Won the Match"
+        android:textColor="#faf5f5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+         />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_trophy"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>

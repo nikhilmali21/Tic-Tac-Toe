@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#060449</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="xwinToast">
+        <item name="colorBackground">#0c108d</item>
+        <item name="android:textColor">#f8f2f2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="length">SHORT</item>
+
+    </style>
+
+    <style name="owinToast">
+        <item name="colorBackground">#cf0707</item>
+        <item name="android:textColor">#f8f2f2</item>
+        <item name="android:smallIcon">@drawable/ic_trophy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="length">SHORT</item>
+        <item name="android:innerRadius">3dp</item>
+
+    </style>
+
+    <style name="drawToast">
+        <item name="colorBackground">#4b4141</item>
+        <item name="android:textColor">#f8f2f2</item>
+        <item name="android:smallIcon">@drawable/ic_trophy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="length">SHORT</item>
+        <item name="android:innerRadius">3dp</item>
+
+    </style>
+
+</resources>

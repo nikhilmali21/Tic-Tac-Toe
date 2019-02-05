@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9106b4</color>
+    <color name="colorPrimaryDark">#ca0202</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="playerxwin_color">#0c108d</color>
+    <color name="playerowin_color">#cf0707</color>
+    <color name="drawroundcolor">#4b4141</color>
+</resources>
